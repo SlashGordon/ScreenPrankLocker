@@ -1,6 +1,6 @@
 # Screen Prank Locker
 
-[![Release CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+[![Release CI](https://github.com/SlashGordon/ScreenPrankLocker/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SlashGordon/ScreenPrankLocker/actions/workflows/ci.yml)
 
 <p align="center">
   <img src="icon.svg" width="128" height="128" alt="Screen Prank Locker icon">
