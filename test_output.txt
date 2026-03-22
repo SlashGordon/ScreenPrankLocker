@@ -1,0 +1,1243 @@
+[1/1] Compiling plugin GenerateManual
+[2/2] Compiling plugin GenerateDoccReference
+Building for debugging...
+[2/6] Write swift-version--58304C5D6DBC2206.txt
+Build complete! (0.16s)
+Test Suite 'All tests' started at 2026-03-18 15:17:03.290.
+Test Suite 'ScreenPrankLockerPackageTests.xctest' started at 2026-03-18 15:17:03.291.
+Test Suite 'ActivationManagerTests' started at 2026-03-18 15:17:03.291.
+Test Case '-[ScreenPrankLockerTests.ActivationManagerTests testCheckCLIActivationReturnsFalseByDefault]' started.
+Test Case '-[ScreenPrankLockerTests.ActivationManagerTests testCheckCLIActivationReturnsFalseByDefault]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.ActivationManagerTests testRegisterHotkeyCreatesEventMonitor]' started.
+Test Case '-[ScreenPrankLockerTests.ActivationManagerTests testRegisterHotkeyCreatesEventMonitor]' passed (0.039 seconds).
+Test Case '-[ScreenPrankLockerTests.ActivationManagerTests testRegisterHotkeyStoresCorrectKeyCombo]' started.
+Test Case '-[ScreenPrankLockerTests.ActivationManagerTests testRegisterHotkeyStoresCorrectKeyCombo]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.ActivationManagerTests testRegisterHotkeyTwiceReplacesPreviousRegistration]' started.
+Test Case '-[ScreenPrankLockerTests.ActivationManagerTests testRegisterHotkeyTwiceReplacesPreviousRegistration]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.ActivationManagerTests testUnregisterHotkeyClearsEventMonitorAndCombo]' started.
+Test Case '-[ScreenPrankLockerTests.ActivationManagerTests testUnregisterHotkeyClearsEventMonitorAndCombo]' passed (0.000 seconds).
+Test Suite 'ActivationManagerTests' passed at 2026-03-18 15:17:03.332.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.040 (0.041) seconds
+Test Suite 'ConfigUIPropertyTests' started at 2026-03-18 15:17:03.332.
+Test Case '-[ScreenPrankLockerTests.ConfigUIPropertyTests testConfigPersistenceRoundTrip]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigUIPropertyTests testConfigPersistenceRoundTrip]' passed (0.170 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigUIPropertyTests testEmptyOrWhitespaceDeactivationSequenceIsRejected]' started.
+*** Passed 100 tests
+:
+ 1%, deactivationSequence: expected 'zxsnp', got 'zxsnp', failsafeTimeoutMinutes: expected 240, got 240, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'zfzmd', got 'zfzmd', failsafeTimeoutMinutes: expected 54, got 54, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'zexjw', got 'zexjw', failsafeTimeoutMinutes: expected 553, got 553, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'zetzu', got 'zetzu', failsafeTimeoutMinutes: expected 831, got 831, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'ykrnd', got 'ykrnd', failsafeTimeoutMinutes: expected 517, got 517, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'xudma', got 'xudma', failsafeTimeoutMinutes: expected 555, got 555, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'xiyjl', got 'xiyjl', failsafeTimeoutMinutes: expected 587, got 587, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'wsnaj', got 'wsnaj', failsafeTimeoutMinutes: expected 357, got 357, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'wmbov', got 'wmbov', failsafeTimeoutMinutes: expected 559, got 559, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'whkqt', got 'whkqt', failsafeTimeoutMinutes: expected 762, got 762, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'wctfi', got 'wctfi', failsafeTimeoutMinutes: expected 285, got 285, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'wcled', got 'wcled', failsafeTimeoutMinutes: expected 493, got 493, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'vqtdw', got 'vqtdw', failsafeTimeoutMinutes: expected 485, got 485, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'vltxz', got 'vltxz', failsafeTimeoutMinutes: expected 352, got 352, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'vlfex', got 'vlfex', failsafeTimeoutMinutes: expected 975, got 975, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'vflsl', got 'vflsl', failsafeTimeoutMinutes: expected 389, got 389, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'uufpt', got 'uufpt', failsafeTimeoutMinutes: expected 382, got 382, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'usvpo', got 'usvpo', failsafeTimeoutMinutes: expected 610, got 610, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'unsvv', got 'unsvv', failsafeTimeoutMinutes: expected 956, got 956, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'uiqtt', got 'uiqtt', failsafeTimeoutMinutes: expected 995, got 995, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'tvfxy', got 'tvfxy', failsafeTimeoutMinutes: expected 303, got 303, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'ttawk', got 'ttawk', failsafeTimeoutMinutes: expected 912, got 912, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'tnhci', got 'tnhci', failsafeTimeoutMinutes: expected 869, got 869, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'tiiic', got 'tiiic', failsafeTimeoutMinutes: expected 480, got 480, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'tfowd', got 'tfowd', failsafeTimeoutMinutes: expected 712, got 712, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'syqoi', got 'syqoi', failsafeTimeoutMinutes: expected 331, got 331, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'srkfs', got 'srkfs', failsafeTimeoutMinutes: expected 889, got 889, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'sdytv', got 'sdytv', failsafeTimeoutMinutes: expected 155, got 155, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'sboxs', got 'sboxs', failsafeTimeoutMinutes: expected 291, got 291, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'rzkgc', got 'rzkgc', failsafeTimeoutMinutes: expected 914, got 914, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'rovki', got 'rovki', failsafeTimeoutMinutes: expected 64, got 64, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'rjuar', got 'rjuar', failsafeTimeoutMinutes: expected 922, got 922, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'riorc', got 'riorc', failsafeTimeoutMinutes: expected 126, got 126, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'qzpjm', got 'qzpjm', failsafeTimeoutMinutes: expected 698, got 698, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'qyymz', got 'qyymz', failsafeTimeoutMinutes: expected 242, got 242, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'qvdvm', got 'qvdvm', failsafeTimeoutMinutes: expected 322, got 322, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'quhwu', got 'quhwu', failsafeTimeoutMinutes: expected 319, got 319, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'qskfg', got 'qskfg', failsafeTimeoutMinutes: expected 815, got 815, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'qpeut', got 'qpeut', failsafeTimeoutMinutes: expected 974, got 974, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'psotq', got 'psotq', failsafeTimeoutMinutes: expected 785, got 785, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'pmjsb', got 'pmjsb', failsafeTimeoutMinutes: expected 83, got 83, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'pmgtg', got 'pmgtg', failsafeTimeoutMinutes: expected 701, got 701, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'phykd', got 'phykd', failsafeTimeoutMinutes: expected 881, got 881, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'pesdk', got 'pesdk', failsafeTimeoutMinutes: expected 53, got 53, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'pbojy', got 'pbojy', failsafeTimeoutMinutes: expected 294, got 294, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'pbkwp', got 'pbkwp', failsafeTimeoutMinutes: expected 358, got 358, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'ojlca', got 'ojlca', failsafeTimeoutMinutes: expected 617, got 617, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'oebsn', got 'oebsn', failsafeTimeoutMinutes: expected 761, got 761, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'nuwgz', got 'nuwgz', failsafeTimeoutMinutes: expected 508, got 508, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'nkatg', got 'nkatg', failsafeTimeoutMinutes: expected 68, got 68, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'njnoj', got 'njnoj', failsafeTimeoutMinutes: expected 159, got 159, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'nijsd', got 'nijsd', failsafeTimeoutMinutes: expected 695, got 695, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'nhxxa', got 'nhxxa', failsafeTimeoutMinutes: expected 302, got 302, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'myyod', got 'myyod', failsafeTimeoutMinutes: expected 901, got 901, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'mxnuk', got 'mxnuk', failsafeTimeoutMinutes: expected 897, got 897, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'mwyiy', got 'mwyiy', failsafeTimeoutMinutes: expected 33, got 33, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'mpoxp', got 'mpoxp', failsafeTimeoutMinutes: expected 547, got 547, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'lqorh', got 'lqorh', failsafeTimeoutMinutes: expected 133, got 133, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'lqick', got 'lqick', failsafeTimeoutMinutes: expected 831, got 831, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'lpega', got 'lpega', failsafeTimeoutMinutes: expected 701, got 701, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'lkxuq', got 'lkxuq', failsafeTimeoutMinutes: expected 242, got 242, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'lfxte', got 'lfxte', failsafeTimeoutMinutes: expected 359, got 359, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'ldyps', got 'ldyps', failsafeTimeoutMinutes: expected 785, got 785, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'jzqnu', got 'jzqnu', failsafeTimeoutMinutes: expected 159, got 159, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'juvdm', got 'juvdm', failsafeTimeoutMinutes: expected 245, got 245, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'jncdk', got 'jncdk', failsafeTimeoutMinutes: expected 402, got 402, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'jkyjl', got 'jkyjl', failsafeTimeoutMinutes: expected 621, got 621, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'jiulp', got 'jiulp', failsafeTimeoutMinutes: expected 331, got 331, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'jfkcl', got 'jfkcl', failsafeTimeoutMinutes: expected 694, got 694, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'iysix', got 'iysix', failsafeTimeoutMinutes: expected 322, got 322, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'iskei', got 'iskei', failsafeTimeoutMinutes: expected 255, got 255, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'ineqt', got 'ineqt', failsafeTimeoutMinutes: expected 398, got 398, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'hcyta', got 'hcyta', failsafeTimeoutMinutes: expected 61, got 61, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'hapou', got 'hapou', failsafeTimeoutMinutes: expected 703, got 703, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'gvwnd', got 'gvwnd', failsafeTimeoutMinutes: expected 539, got 539, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'guhnx', got 'guhnx', failsafeTimeoutMinutes: expected 809, got 809, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'grpxs', got 'grpxs', failsafeTimeoutMinutes: expected 711, got 711, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'gpixs', got 'gpixs', failsafeTimeoutMinutes: expected 950, got 950, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'gjynw', got 'gjynw', failsafeTimeoutMinutes: expected 793, got 793, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'gdtxf', got 'gdtxf', failsafeTimeoutMinutes: expected 512, got 512, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'fypxi', got 'fypxi', failsafeTimeoutMinutes: expected 640, got 640, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'fyfda', got 'fyfda', failsafeTimeoutMinutes: expected 13, got 13, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'frwjr', got 'frwjr', failsafeTimeoutMinutes: expected 252, got 252, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'fpbni', got 'fpbni', failsafeTimeoutMinutes: expected 169, got 169, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'fnend', got 'fnend', failsafeTimeoutMinutes: expected 928, got 928, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'filys', got 'filys', failsafeTimeoutMinutes: expected 622, got 622, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'fbmfc', got 'fbmfc', failsafeTimeoutMinutes: expected 598, got 598, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'ezuax', got 'ezuax', failsafeTimeoutMinutes: expected 951, got 951, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'exvfy', got 'exvfy', failsafeTimeoutMinutes: expected 630, got 630, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'evecs', got 'evecs', failsafeTimeoutMinutes: expected 40, got 40, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'eruyq', got 'eruyq', failsafeTimeoutMinutes: expected 17, got 17, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'enhvp', got 'enhvp', failsafeTimeoutMinutes: expected 559, got 559, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'dyenm', got 'dyenm', failsafeTimeoutMinutes: expected 683, got 683, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'dofhd', got 'dofhd', failsafeTimeoutMinutes: expected 593, got 593, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'bywat', got 'bywat', failsafeTimeoutMinutes: expected 222, got 222, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'beimg', got 'beimg', failsafeTimeoutMinutes: expected 297, got 297, protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'axurj', got 'axurj', failsafeTimeoutMinutes: expected 536, got 536, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'axpkh', got 'axpkh', failsafeTimeoutMinutes: expected 342, got 342, protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'aughi', got 'aughi', failsafeTimeoutMinutes: expected 357, got 357, protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'akunq', got 'akunq', failsafeTimeoutMinutes: expected 78, got 78, protectionMode: expected flashAndSound, got flashAndSound
+*** Passed 100 tests
+:
+ 7%, validateFields() should return nil for whitespace-only string of length 7, got non-nil
+ 6%, validateFields() should return nil for whitespace-only string of length 2, got non-nil
+ 5%, validateFields() should return nil for whitespace-only string of length 1, got non-nil
+ 5%, validateFields() should return nil for whitespace-only string of length 0, got non-nil
+ 3%, validateFields() should return nil for whitespace-only string of length 5, got non-nil
+ 3%, validateFields() should return nil for whitespace-only string of length 4, got non-nil
+ 3%, validateFields() should return nil for whitespace-only string of length 35, got non-nil
+ 3%, validateFields() should return nil for whitespace-only string of length 32, got non-nil
+ 3%, validateFields() should return nil for whitespace-only string of length 28, got non-nil
+ 3%, validateFields() should return nil for whitespace-only string of length 18, got non-nil
+ 3%, validateFieTest Case '-[ScreenPrankLockerTests.ConfigUIPropertyTests testEmptyOrWhitespaceDeactivationSequenceIsRejected]' passed (0.013 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigUIPropertyTests testFieldPrePopulationMatchesConfig]' started.
+lds() should return nil for whitespace-only string of length 13, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 8, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 68, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 6, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 49, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 40, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 38, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 30, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 26, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 23, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 22, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 17, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 16, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 14, got non-nil
+ 2%, validateFields() should return nil for whitespace-only string of length 12, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 9, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 81, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 79, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 72, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 66, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 65, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 61, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 57, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 55, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 54, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 53, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 51, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 50, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 48, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 41, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 39, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 37, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 34, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 33, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 31, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 29, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 25, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 24, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 20, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 19, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 15, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 11, got non-nil
+ 1%, validateFields() should return nil for whitespace-only string of length 10, got non-nil
+*** Passed 100 tests
+:
+ 1%, deactivationSequence: expected 'zmlbs', got 'zmlbs', failsafeTimeout: expected '240', got '240', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'zakpt', got 'zakpt', failsafeTimeout: expected '221', got '221', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'yzqwg', got 'yzqwg', failsafeTimeout: expected '20', got '20', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'yuedv', got 'yuedv', failsafeTimeout: expected '305', got '305', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'ylnty', got 'ylnty', failsafeTimeout: expected '698', got '698', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'yfvxf', got 'yfvxf', failsafeTimeout: expected '938', got '938', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'xyuis', got 'xyuis', failsafeTimeout: expected '389', got '389', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'xqwax', got 'xqwax', failsafeTimeout: expected '497', got '497', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'xkjcf', got 'xkjcf', failsafeTimeout: expected '233', got '233', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'xgbik', got 'xgbik', failsafeTimeout: expected '12', got '12', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'wvavl', got 'wvavl', failsafeTimeout: expected '878', got '878', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'wsnpb', got 'wsnpb', failsafeTimeout: expected '945', got '945', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'woype', got 'woype', failsafeTimeout: expected '218', got '218', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'wglmc', got 'wglmc', failsafeTimeout: expected '112', got '112', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'vtuon', got 'vtuon', failsafeTimeout: expected '886', got '886', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'vqzzc', got 'vqzzc', failsafeTimeout: expected '651', got '651', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'vawzi', got 'vawzi', failsafeTimeout: expected '60', got '60', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'ursnb', got 'ursnb', failsafeTimeout: expected '558', got '558', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'tymkr', got 'tymkr', failsafeTimeout: expected '138', got '138', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'tymcl', got 'tymcl', failsafeTimeout: expected '49', got '49', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'tfoto', got 'tfoto', failsafeTimeout: expected '810', got '810', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'swqez', got 'swqez', failsafeTimeout: expected '207', got '207', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'skmig', got 'skmig', failsafeTimeout: expected '104', got '104', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'sixpp', got 'sixpp', failsafeTimeout: expected '43', got '43', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'shckh', got 'shckh', failsafeTimeout: expected '786', got '786', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'sexnz', got 'sexnz', failsafeTimeout: expected '898', got '898', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'rpcng', got 'rpcng', failsafeTimeout: expected '210', got '210', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'roiyi', got 'roiyi', failsafeTimeout: expected '279', got '279', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'rkckm', got 'rkckm', failsafeTimeout: expected '560', got '560', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'rgacc', got 'rgacc', failsafeTimeout: expected '383', got '383', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'remmk', got 'remmk', failsafeTimeout: expected '445', got '445', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'qodll', got 'qodll', failsafeTimeout: expected '349', got '349', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'pzkls', got 'pzkls', failsafeTimeout: expected '333', got '333', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'ppkcg', got 'ppkcg', failsafeTimeout: expected '74', got '74', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'pnidi', got 'pnidi', failsafeTimeout: expected '170', got '170', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'pkaln', got 'pkaln', failsafeTimeout: expected '977', got '977', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'ovnwg', got 'ovnwg', failsafeTimeout: expected '493', got '493', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'orbmz', got 'orbmz', failsafeTimeout: expected '580', got '580', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'oolut', got 'oolut', failsafeTimeout: expected '427', got '427', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'oltqd', got 'oltqd', failsafeTimeout: expected '156', got '156', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'nxnwq', got 'nxnwq', failsafeTimeout: expected '441', got '441', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'nxfci', got 'nxfci', failsafeTimeout: expected '184', got '184', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'nsbsf', got 'nsbsf', failsafeTimeout: expected '295', got '295', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'njlke', got 'njlke', failsafeTimeout: expected '830', got '830', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'mywgj', got 'mywgj', failsafeTimeout: expected '833', got '833', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'mxxal', got 'mxxal', failsafeTimeout: expected '911', got '911', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'mwoei', got 'mwoei', failsafeTimeout: expected '210', got '210', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'mvadg', got 'mvadg', failsafeTimeout: expected '115', got '115', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'mkwva', got 'mkwva', failsafeTimeout: expected '28', got '28', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'mkeao', got 'mkeao', failsafeTimeout: expected '834', got '834', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'lurqh', got 'lurqh', failsafeTimeout: expected '867', got '867', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'lhotn', got 'lhotn', failsafeTimeout: expected '762', got '762', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'lexxf', got 'lexxf', failsafeTimeout: expected '407', got '407', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'kxafu', got 'kxafu', failsafeTimeout: expected '17', got '17', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'kltgz', got 'kltgz', failsafeTimeout: expected '74', got '74', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'jxqvf', got 'jxqvf', failsafeTimeout: expected '182', got '182', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'jlovp', got 'jlovp', failsafeTimeout: expected '974', got '974', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'jleli', got 'jleli', failsafeTimeout: expected '934', got '934', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'jauhw', got 'jauhw', failsafeTimeout: expected '79', got '79', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'jaqjq', got 'jaqjq', failsafeTimeout: expected '96', got '96', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'ipzed', got 'ipzed', failsafeTimeout: expected '742', got '742', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'iniqt', got 'iniqt', failsafeTimeout: expected '783', got '783', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'igwvf', got 'igwvf', failsafeTimeout: expected '943', got '943', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'hudqw', got 'hudqw', failsafeTimeout: expected '665', got '665', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'hpzkp', got 'hpzkp', failsafeTimeout: expected '599', got '599', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'hlvar', got 'hlvar', failsafeTimeout: expected '156', got '156', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'hkybp', got 'hkybp', failsafeTimeout: expected '58', got '58', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'gsasn', got 'gsasn', failsafeTimeout: expected '323', got '323', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'ghkzq', got 'ghkzq', failsafeTimeout: expected '918', got '918', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'gafyq', got 'gafyq', failsafeTimeout: expected '374', got '374', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'fvwny', got 'fvwny', failsafeTimeout: expected '649', got '649', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'fooif', got 'fooif', failsafeTimeout: expected '541', got '541', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'fnmfi', got 'fnmfi', failsafeTimeout: expected '177', got '177', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'fgdfc', got 'fgdfc', failsafeTimeout: expected '415', got '415', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'fdjte', got 'fdjte', failsafeTimeout: expected '252', got '252', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'exxka', got 'exxka', failsafeTimeout: expected '640', got '640', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'erhoz', got 'erhoz', failsafeTimeout: expected '278', got '278', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'eelza', got 'eelza', failsafeTimeout: expected '709', got '709', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'ebecr', got 'ebecr', failsafeTimeout: expected '673', got '673', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'eagac', got 'eagac', failsafeTimeout: expected '716', got '716', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'dxusw', got 'dxusw', failsafeTimeout: expected '388', got '388', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'dvctj', got 'dvctj', failsafeTimeout: expected '643', got '643', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'dsqzg', got 'dsqzg', failsafeTimeout: expected '602', got '602', protectTest Case '-[ScreenPrankLockerTests.ConfigUIPropertyTests testFieldPrePopulationMatchesConfig]' passed (0.042 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigUIPropertyTests testInvalidFailsafeTimeoutIsRejected]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigUIPropertyTests testInvalidFailsafeTimeoutIsRejected]' passed (0.006 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigUIPropertyTests testValidInputTriggersSaveAndDelegate]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigUIPropertyTests testValidInputTriggersSaveAndDelegate]' passed (2.484 seconds).
+Test Suite 'ConfigUIPropertyTests' passed at 2026-03-18 15:17:06.047.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 2.715 (2.716) seconds
+Test Suite 'ConfigUITests' started at 2026-03-18 15:17:06.047.
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testProtectionModeHasThreeCases]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testProtectionModeHasThreeCases]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testProtectionModeRawValues]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testProtectionModeRawValues]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testSaveFailureSetsAlertMessage]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testSaveFailureSetsAlertMessage]' passed (0.002 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testShowWindowCentersWindow]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testShowWindowCentersWindow]' passed (0.026 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testStartClickedCallsDelegateWithValidFields]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testStartClickedCallsDelegateWithValidFields]' passed (0.025 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testWindowIsNotResizable]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testWindowIsNotResizable]' passed (0.022 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testWindowTitleIsPrankLocker]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigUITests testWindowTitleIsPrankLocker]' passed (0.021 seconds).
+Test Suite 'ConfigUITests' passed at 2026-03-18 15:17:06.144.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.096 (0.097) seconds
+Test Suite 'ConfigurationManagerTests' started at 2026-03-18 15:17:06.144.
+Test Case '-[ScreenPrankLockerTests.ConfigurationManagerTests testDefaultActivationShortcut]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigurationManagerTests testDefaultActivationShortcut]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigurationManagerTests testLoadWithCustomConfigParsesCorrectly]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigurationManagerTests testLoadWithCustomConfigParsesCorrectly]' passed (0.004 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigurationManagerTests testLoadWithNoConfigFileReturnsDefaults]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigurationManagerTests testLoadWithNoConfigFileReturnsDefaults]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigurationManagerTests testSaveCreatesDirectoryIfMissing]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigurationManagerTests testSaveCreatesDirectoryIfMissing]' passed (0.002 seconds).
+Test Case '-[ScreenPrankLockerTests.ConfigurationManagerTests testSaveWritesValidJSONThatCanBeReloaded]' started.
+Test Case '-[ScreenPrankLockerTests.ConfigurationManagerTests testSaveWritesValidJSONThatCanBeReloaded]' passed (0.003 seconds).
+Test Suite 'ConfigurationManagerTests' passed at 2026-03-18 15:17:06.153.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.008 (0.009) seconds
+Test Suite 'DeactivationHandlerPropertyTests' started at 2026-03-18 15:17:06.153.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerPropertyTests testDeactivationSequenceDetectionWithConfigurableTarget]' started.
+ionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'dqfyk', got 'dqfyk', failsafeTimeout: expected '397', got '397', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'dobmu', got 'dobmu', failsafeTimeout: expected '425', got '425', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'dfovm', got 'dfovm', failsafeTimeout: expected '595', got '595', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'ddhkt', got 'ddhkt', failsafeTimeout: expected '42', got '42', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'csrdr', got 'csrdr', failsafeTimeout: expected '145', got '145', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'cmudf', got 'cmudf', failsafeTimeout: expected '435', got '435', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'clrbu', got 'clrbu', failsafeTimeout: expected '211', got '211', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'cdrxc', got 'cdrxc', failsafeTimeout: expected '403', got '403', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'cddzv', got 'cddzv', failsafeTimeout: expected '965', got '965', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'bwjay', got 'bwjay', failsafeTimeout: expected '300', got '300', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'bnegy', got 'bnegy', failsafeTimeout: expected '360', got '360', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'bllgb', got 'bllgb', failsafeTimeout: expected '486', got '486', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'bbzwv', got 'bbzwv', failsafeTimeout: expected '535', got '535', protectionMode: expected silent, got silent
+ 1%, deactivationSequence: expected 'avlzj', got 'avlzj', failsafeTimeout: expected '41', got '41', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'arqjv', got 'arqjv', failsafeTimeout: expected '28', got '28', protectionMode: expected flash, got flash
+ 1%, deactivationSequence: expected 'akaas', got 'akaas', failsafeTimeout: expected '763', got '763', protectionMode: expected flashAndSound, got flashAndSound
+ 1%, deactivationSequence: expected 'abcpk', got 'abcpk', failsafeTimeout: expected '908', got '908', protectionMode: expected flashAndSound, got flashAndSound
+*** Passed 100 tests
+:
+19%, validateFields() should return nil for invalid timeout '12x', got non-nil
+19%, validateFields() should return nil for invalid timeout ' ', got non-nil
+18%, validateFields() should return nil for invalid timeout '', got non-nil
+14%, validateFields() should return nil for invalid timeout '3.14', got non-nil
+12%, validateFields() should return nil for invalid timeout 'hello', got non-nil
+10%, validateFields() should return nil for invalid timeout 'abc', got non-nil
+ 8%, validateFields() should return nil for invalid timeout '1.5', got non-nil
+*** Passed 100 tests
+:
+ 1%, config should be saved with sequence='zxmov', timeout=109, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='zozog', timeout=811, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='yyzgr', timeout=60, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='yifyt', timeout=216, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='yeepv', timeout=666, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='xshne', timeout=856, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='xmpdd', timeout=325, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='xhdyu', timeout=269, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='wxaot', timeout=533, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='wnqff', timeout=16, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='wlmqu', timeout=54, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='wbhdk', timeout=683, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='wasnm', timeout=23, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='vypws', timeout=41, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='vpfsm', timeout=936, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='uocfj', timeout=196, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='thoxa', timeout=328, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='tfhgt', timeout=62, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='syixz', timeout=113, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='swlhq', timeout=690, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='setek', timeout=192, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='sdywu', timeout=626, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='saiim', timeout=962, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='rvsnw', timeout=464, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='raupc', timeout=157, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='qybmd', timeout=37, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='qtdte', timeout=872, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='qorcr', timeout=348, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='qloxo', timeout=272, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='qgcjr', timeout=992, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='pyzvm', timeout=275, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='pswhw', timeout=682, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='ppkjy', timeout=156, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='pofap', timeout=690, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='oplbe', timeout=832, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='olaju', timeout=926, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='nsqti', timeout=527, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='nmkla', timeout=321, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='njqtv', timeout=50, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='nfikg', timeout=140, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='nclar', timeout=507, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='mzmkt', timeout=434, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='mtpxj', timeout=240, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='mnfey', timeout=936, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='mltwr', timeout=928, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='lueaw', timeout=827, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='ljyde', timeout=285, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='lhxog', timeout=384, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='laebz', timeout=902, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='jyfjt', timeout=505, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='jvbsc', timeout=588, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='jivfg', timeout=277, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='jboyk', timeout=978, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='jbeeo', timeout=466, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='jayhd', timeout=253, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='iyzcz', timeout=653, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='iydug', timeout=303, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='iwkzi', timeout=558, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='iwfkh', timeout=805, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='hvcyd', timeout=128, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='htlsk', timeout=565, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='hrqwn', timeout=512, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='hptgt', timeout=806, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='hmogn', timeout=540, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='hgigt', timeout=95, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='hdpoc', timeout=718, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='guwue', timeout=978, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='gszul', timeout=363, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='gpnce', timeout=448, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='gmvak', timeout=263, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='gjpal', timeout=1, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='gihlk', timeout=885, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='fzbjp', timeout=95, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='fzaua', timeout=794, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='fymup', timeout=595, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='fwppy', timeout=448, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='fwgdh', timeout=438, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='flpwv', timeout=222, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='fkdlu', timeout=46, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='fjqni', timeout=370, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='faggo', timeout=371, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='euadg', timeout=936, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='elabp', timeout=412, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='ejfxw', timeout=841, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='efbeg', timeout=929, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='dxyjp', timeout=356, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='dwspz', timeout=797, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='dumkx', timeout=272, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='dmogw', timeout=714, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='djxqi', timeout=929, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='ddxbv', timeout=746, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='cukoj', timeout=599, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='ckcjp', timeout=87, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='bupkz', timeout=689, mode=flash, delegate should be called with matching config
+ 1%, config should be saved with sequence='bobob', timeout=546, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='bfcoj', timeout=932, mode=flashAndSound, delegate should be called with matching config
+ 1%, config should be saved with sequence='axbzr', timeout=825, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='aegrv', timeout=141, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='abmej', timeout=304, mode=silent, delegate should be called with matching config
+ 1%, config should be saved with sequence='aavcv', timeout=265, mode=silent, delegate should be called with matching config
+*** Passed 100 tests
+:
+ 3%, delegate called exactly once (got 1) for sequence 'c'
+ 2%, delegate called exactly once (got 1) for sequence 'y'
+ 2%, delegate called exactly once (got 1) for sequence 'x'
+ 2%, delegate called exactly once (got 1) for sequence '1'
+ 1%, delegate called exactly once (got 1) for sequence 'zjboj'
+ 1%, delegate called exactly once (got 1) for sequence 'zdkmo51xl6'
+ 1%, delegate called exactly once (got 1) for sequence 'yub12'
+ 1%, delegate called exactly once (got 1) for sequence 'ypu07fiz'
+ 1%, delegate called exactly once (got 1) for Test Case '-[ScreenPrankLockerTests.DeactivationHandlerPropertyTests testDeactivationSequenceDetectionWithConfigurableTarget]' passed (0.013 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerPropertyTests testIncorrectKeystrokeResetsSequenceBuffer]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerPropertyTests testIncorrectKeystrokeResetsSequenceBuffer]' passed (0.006 seconds).
+Test Suite 'DeactivationHandlerPropertyTests' passed at 2026-03-18 15:17:06.172.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.019 (0.019) seconds
+Test Suite 'DeactivationHandlerTests' started at 2026-03-18 15:17:06.172.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testBufferResetsAfterCompletion]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testBufferResetsAfterCompletion]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testCharacterMappingForDigits]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testCharacterMappingForDigits]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testCharacterMappingForLetters]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testCharacterMappingForLetters]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testCharacterMappingReturnsNilForUnmappedCode]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testCharacterMappingReturnsNilForUnmappedCode]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testCorrectSequenceTriggersDelegate]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testCorrectSequenceTriggersDelegate]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testDelegateNotCalledForPartialSequence]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testDelegateNotCalledForPartialSequence]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testEmptyTargetSequenceNeverTriggers]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testEmptyTargetSequenceNeverTriggers]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testIncorrectKeystrokeResetsBuffer]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testIncorrectKeystrokeResetsBuffer]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testOverlappingPrefixHandling]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testOverlappingPrefixHandling]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testOverlappingPrefixWithFalseStart]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testOverlappingPrefixWithFalseStart]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testResetClearsBuffer]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testResetClearsBuffer]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testSequenceCanBeCompletedMultipleTimes]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testSequenceCanBeCompletedMultipleTimes]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testSequenceCompletesAfterResetAndRetry]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testSequenceCompletesAfterResetAndRetry]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testSequenceDetectionIsCaseSensitive]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testSequenceDetectionIsCaseSensitive]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testUnmappedKeystrokeDoesNotAffectBuffer]' started.
+Test Case '-[ScreenPrankLockerTests.DeactivationHandlerTests testUnmappedKeystrokeDoesNotAffectBuffer]' passed (0.000 seconds).
+Test Suite 'DeactivationHandlerTests' passed at 2026-03-18 15:17:06.175.
+	 Executed 15 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'EventInterceptorPropertyTests' started at 2026-03-18 15:17:06.175.
+Test Case '-[ScreenPrankLockerTests.EventInterceptorPropertyTests testAllInputEventTypesAreDiscardedByEventTap]' started.
+Test Case '-[ScreenPrankLockerTests.EventInterceptorPropertyTests testAllInputEventTypesAreDiscardedByEventTap]' passed (0.003 seconds).
+Test Case '-[ScreenPrankLockerTests.EventInterceptorPropertyTests testEventMaskCoversAllRequiredTypes]' started.
+Test Case '-[ScreenPrankLockerTests.EventInterceptorPropertyTests testEventMaskCoversAllRequiredTypes]' passed (0.000 seconds).
+Test Suite 'EventInterceptorPropertyTests' passed at 2026-03-18 15:17:06.178.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'LockSessionCoordinatorPropertyTests' started at 2026-03-18 15:17:06.178.
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorPropertyTests testActivationIsIdempotentDuringActiveSession]' started.
+2026-03-18 15:17:06.180 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.180 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.183 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.183 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.185 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.185 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.188 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.188 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.190 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.190 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.193 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.193 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.195 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.195 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.198 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.198 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.200 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.200 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.202 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.202 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.205 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.205 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.208 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.208 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.211 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.211 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.213 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.213 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.216 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.216 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.218 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.218 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.221 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.221 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.223 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.223 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.226 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.226 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.229 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.229 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.230 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.230 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.231 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.231 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.232 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.232 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.233 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.233 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.234 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.234 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.235 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.235 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.236 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.236 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.237 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.237 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.238 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.238 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.239 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.239 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.240 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.240 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.241 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.241 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.242 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.242 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.243 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.243 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.243 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.244 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.244 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.244 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.245 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.245 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.247 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.247 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.248 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.248 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.248 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.248 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.249 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.249 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.250 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.250 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.251 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.251 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.252 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.252 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.253 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.253 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.254 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.254 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.255 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.255 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.256 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.256 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.257 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.257 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.258 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.258 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.259 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.259 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.260 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.260 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.261 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.261 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.262 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.262 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.263 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.263 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.264 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.264 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.265 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.265 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.266 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.266 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.267 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.267 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.268 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.268 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.269 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.269 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.270 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.270 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.271 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.271 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.272 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.272 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.273 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.273 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.274 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.274 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.275 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.275 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.276 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.276 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.277 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.277 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.278 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.278 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.278 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.278 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.279 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.279 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.281 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.281 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.281 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.281 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.282 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.282 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.283 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.283 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.284 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.284 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.285 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.285 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.286 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.286 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.287 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.287 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.289 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.289 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.290 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.290 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.290 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.290 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.291 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.291 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.292 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.292 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.293 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.294 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.295 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.295 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.296 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.296 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.298 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.298 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.299 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.299 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.300 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.300 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.301 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.301 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.302 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.302 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.303 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.303 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.304 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.304 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.305 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.305 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.306 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.306 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.307 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.307 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.308 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.308 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.309 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.309 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorPropertyTests testActivationIsIdempotentDuringActiveSession]' passed (0.140 seconds).
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorPropertyTests testEitherDeactivationMethodEndsSession]' started.
+2026-03-18 15:17:06.319 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.319 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.320 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.320 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.321 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.321 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.322 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.322 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.323 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.323 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.324 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.324 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.325 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.325 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.326 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.326 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.327 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.327 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.328 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.328 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.329 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.329 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.330 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.330 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.331 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.331 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.332 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.332 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.333 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.333 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.334 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.334 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.335 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.335 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.336 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.336 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.337 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.337 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.338 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.338 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.339 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.339 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.340 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.340 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.341 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.341 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.342 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.342 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.343 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.343 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.344 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.344 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.345 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.345 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.346 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.346 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.347 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.347 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.348 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.348 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.349 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.349 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.350 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.350 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.351 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.351 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.352 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.352 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.353 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.353 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.355 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.355 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.356 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.356 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.357 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.357 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.358 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.358 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.359 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.359 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.360 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.360 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.361 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.361 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.362 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.362 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.363 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.363 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.364 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.364 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.365 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.365 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.366 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.366 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.367 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.367 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.368 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.368 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.369 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.369 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.370 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.370 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.371 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.371 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.372 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.372 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.373 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.373 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.375 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.375 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.376 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.376 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.376 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.377 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.378 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.378 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.379 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.379 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.380 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.380 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.381 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.381 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.382 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.382 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.383 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.383 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.384 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.384 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.385 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.385 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.386 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.386 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.387 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.387 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.388 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.388 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.389 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.389 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.390 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.390 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.391 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.391 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.392 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.392 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.393 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.393 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.394 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.394 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.395 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.395 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.396 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.396 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.397 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.397 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.398 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.398 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.399 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.399 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.400 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.400 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.401 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.401 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.402 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.402 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.403 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.403 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.405 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.405 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.406 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.406 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.407 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.407 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.408 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.408 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.409 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.409 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.410 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.410 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.411 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.411 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.412 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.412 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.413 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.413 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.415 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.415 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.416 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.416 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.417 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.417 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.418 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.418 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.419 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.419 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.420 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.420 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.421 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.421 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+2026-03-18 15:17:06.422 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:17:06.422 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorPropertyTests testEitherDeactivationMethodEndsSession]' passed (0.113 seconds).
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorPropertyTests testFailedTouchIDDoesNotEndSession]' started.
+/Users/c.dieck/projects/private/protectme/Tests/ScreenPrankLockerTests/PropertyTests/LockSessionCoordinatorPropertyTests.swift:72: error: -[ScreenPrankLockerTests.LockSessionCoordinatorPropertyTests testFailedTouchIDDoesNotEndSession] : failed - Falsifiable; Replay with 1677727040 1862108833 and size 0
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorPropertyTests testFailedTouchIDDoesNotEndSession]' failed (150.104 seconds).
+Test Suite 'LockSessionCoordinatorPropertyTests' failed at 2026-03-18 15:19:36.535.
+	 Executed 3 tests, with 1 failure (0 unexpected) in 150.357 (150.357) seconds
+Test Suite 'LockSessionCoordinatorTests' started at 2026-03-18 15:19:36.535.
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorTests testDeactivateTransitionsFromActiveToIdle]' started.
+2026-03-18 15:19:36.536 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:19:36.536 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorTests testDeactivateTransitionsFromActiveToIdle]' passed (0.002 seconds).
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorTests testDeactivateWhenIdleIsNoOp]' started.
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorTests testDeactivateWhenIdleIsNoOp]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorTests testFailsafeTimerFiresAndDeactivates]' started.
+2026-03-18 15:19:36.537 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:19:36.537 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorTests testFailsafeTimerFiresAndDeactivates]' passed (0.637 seconds).
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorTests testSessionDidEndDelegateCalledOnDeactivate]' started.
+2026-03-18 15:19:37.178 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:19:37.178 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorTests testSessionDidEndDelegateCalledOnDeactivate]' passed (0.005 seconds).
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorTests testSessionDidStartDelegateCalledOnStart]' started.
+2026-03-18 15:19:37.185 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:19:37.185 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorTests testSessionDidStartDelegateCalledOnStart]' passed (0.006 seconds).
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorTests testStartSessionTransitionsFromIdleToActive]' started.
+2026-03-18 15:19:37.188 xctest[19867:118756] [EventInterceptor] Failed to create event tap. Accessibility permission may be denied.
+2026-03-18 15:19:37.188 xctest[19867:118756] [LockSession] Event tap failed — skipping Touch ID, session not fully active
+Test Case '-[ScreenPrankLockerTests.LockSessionCoordinatorTests testStartSessionTransitionsFromIdleToActive]' passed (0.003 seconds).
+Test Suite 'LockSessionCoordinatorTests' passed at 2026-03-18 15:19:37.189.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.653 (0.653) seconds
+Test Suite 'OverlayWindowConfigTests' started at 2026-03-18 15:19:37.189.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testBackgroundColorIsClear]' started.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testBackgroundColorIsClear]' passed (0.003 seconds).
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testCollectionBehaviorContainsCanJoinAllSpaces]' started.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testCollectionBehaviorContainsCanJoinAllSpaces]' passed (0.003 seconds).
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testCollectionBehaviorContainsFullScreenAuxiliary]' started.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testCollectionBehaviorContainsFullScreenAuxiliary]' passed (0.002 seconds).
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testCollectionBehaviorContainsStationary]' started.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testCollectionBehaviorContainsStationary]' passed (0.003 seconds).
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testFrameMatchesScreenFrame]' started.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testFrameMatchesScreenFrame]' passed (0.003 seconds).
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testHasShadowIsFalse]' started.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testHasShadowIsFalse]' passed (0.008 seconds).
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testIgnoresMouseEventsIsFalse]' started.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testIgnoresMouseEventsIsFalse]' passed (0.001 seconds).
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testIsOpaqueIsFalse]' started.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testIsOpaqueIsFalse]' passed (0.001 seconds).
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testStyleMaskContainsBorderless]' started.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testStyleMaskContainsBorderless]' passed (0.001 seconds).
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testWindowLevelIsAboveScreenSaver]' started.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowConfigTests testWindowLevelIsAboveScreenSaver]' passed (0.001 seconds).
+Test Suite 'OverlayWindowConfigTests' passed at 2026-03-18 15:19:37.215.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.025 (0.026) seconds
+Test Suite 'OverlayWindowManagerPropertyTests' started at 2026-03-18 15:19:37.215.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowManagerPropertyTests testDisplayConfigurationChangesUpdateOverlaySet]' started.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowManagerPropertyTests testDisplayConfigurationChangesUpdateOverlaySet]' passed (0.463 seconds).
+Test Case '-[ScreenPrankLockerTests.OverlayWindowManagerPropertyTests testOverlayCoverageMatchesConnectedDisplays]' started.
+Test Case '-[ScreenPrankLockerTests.OverlayWindowManagerPropertyTests testOverlayCoverageMatchesConnectedDisplays]' passed (0.642 seconds).
+Test Suite 'OverlayWindowManagerPropertyTests' passed at 2026-03-18 15:19:38.320.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 1.105 (1.105) seconds
+Test Suite 'ScreenPrankLockerTests' started at 2026-03-18 15:19:38.320.
+Test Case '-[ScreenPrankLockerTests.ScreenPrankLockerTests testPlaceholder]' started.
+Test Case '-[ScreenPrankLockerTests.ScreenPrankLockerTests testPlaceholder]' passed (0.000 seconds).
+Test Suite 'ScreenPrankLockerTests' passed at 2026-03-18 15:19:38.320.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.000 (0.000) seconds
+Test Suite 'TauntDisplayManagerPropertyTests' started at 2026-03-18 15:19:38.320.
+Test Case '-[ScreenPrankLockerTests.TauntDisplayManagerPropertyTests testTauntAppearsOnCorrectScreenWithoutStacking]' started.
+sequence 'yeryu'
+ 1%, delegate called exactly once (got 1) for sequence 'xppk46k'
+ 1%, delegate called exactly once (got 1) for sequence 'xj0'
+ 1%, delegate called exactly once (got 1) for sequence 'x9'
+ 1%, delegate called exactly once (got 1) for sequence 'x3f'
+ 1%, delegate called exactly once (got 1) for sequence 'wztkzw2mnx'
+ 1%, delegate called exactly once (got 1) for sequence 'wkfy'
+ 1%, delegate called exactly once (got 1) for sequence 'w4xkx'
+ 1%, delegate called exactly once (got 1) for sequence 'w1kx0e'
+ 1%, delegate called exactly once (got 1) for sequence 'ur72'
+ 1%, delegate called exactly once (got 1) for sequence 'un37jvuzkr'
+ 1%, delegate called exactly once (got 1) for sequence 'uhhb8e'
+ 1%, delegate called exactly once (got 1) for sequence 'u1'
+ 1%, delegate called exactly once (got 1) for sequence 'tud80qd'
+ 1%, delegate called exactly once (got 1) for sequence 'ts05448i'
+ 1%, delegate called exactly once (got 1) for sequence 'to9ouza1'
+ 1%, delegate called exactly once (got 1) for sequence 'sscruj'
+ 1%, delegate called exactly once (got 1) for sequence 'sfkzigr1h'
+ 1%, delegate called exactly once (got 1) for sequence 's'
+ 1%, delegate called exactly once (got 1) for sequence 'rntb2'
+ 1%, delegate called exactly once (got 1) for sequence 'qwjvke2'
+ 1%, delegate called exactly once (got 1) for sequence 'qmnu971y72'
+ 1%, delegate called exactly once (got 1) for sequence 'qi'
+ 1%, delegate called exactly once (got 1) for sequence 'qeb05pjoz'
+ 1%, delegate called exactly once (got 1) for sequence 'pz3g'
+ 1%, delegate called exactly once (got 1) for sequence 'pr9sug90s'
+ 1%, delegate called exactly once (got 1) for sequence 'ppy5ys'
+ 1%, delegate called exactly once (got 1) for sequence 'pje64q'
+ 1%, delegate called exactly once (got 1) for sequence 'p7ubd5aj2'
+ 1%, delegate called exactly once (got 1) for sequence 'p5nwgh'
+ 1%, delegate called exactly once (got 1) for sequence 'o5'
+ 1%, delegate called exactly once (got 1) for sequence 'o'
+ 1%, delegate called exactly once (got 1) for sequence 'nq1u'
+ 1%, delegate called exactly once (got 1) for sequence 'n'
+ 1%, delegate called exactly once (got 1) for sequence 'lds'
+ 1%, delegate called exactly once (got 1) for sequence 'l84cz3'
+ 1%, delegate called exactly once (got 1) for sequence 'knvisgpt'
+ 1%, delegate called exactly once (got 1) for sequence 'kmvdom02je'
+ 1%, delegate called exactly once (got 1) for sequence 'k06x68d'
+ 1%, delegate called exactly once (got 1) for sequence 'k'
+ 1%, delegate called exactly once (got 1) for sequence 'js0wd'
+ 1%, delegate called exactly once (got 1) for sequence 'jfe12'
+ 1%, delegate called exactly once (got 1) for sequence 'ik'
+ 1%, delegate called exactly once (got 1) for sequence 'ijocuql9uh'
+ 1%, delegate called exactly once (got 1) for sequence 'i7c'
+ 1%, delegate called exactly once (got 1) for sequence 'i'
+ 1%, delegate called exactly once (got 1) for sequence 'h0g2xl'
+ 1%, delegate called exactly once (got 1) for sequence 'grt2'
+ 1%, delegate called exactly once (got 1) for sequence 'gn'
+ 1%, delegate called exactly once (got 1) for sequence 'ghkbsqg'
+ 1%, delegate called exactly once (got 1) for sequence 'g'
+ 1%, delegate called exactly once (got 1) for sequence 'fy1dhn'
+ 1%, delegate called exactly once (got 1) for sequence 'ftwo'
+ 1%, delegate called exactly once (got 1) for sequence 'f9zg2a4'
+ 1%, delegate called exactly once (got 1) for sequence 'enq5ato'
+ 1%, delegate called exactly once (got 1) for sequence 'emb3zx29l'
+ 1%, delegate called exactly once (got 1) for sequence 'eei4sue'
+ 1%, delegate called exactly once (got 1) for sequence 'di4ock'
+ 1%, delegate called exactly once (got 1) for sequence 'd6mzig'
+ 1%, delegate called exactly once (got 1) for sequence 'd37ho2bzs'
+ 1%, delegate called exactly once (got 1) for sequence 'cwy'
+ 1%, delegate called exactly once (got 1) for sequence 'c954q4fq0'
+ 1%, delegate called exactly once (got 1) for sequence 'b60g'
+ 1%, delegate called exactly once (got 1) for sequence 'b'
+ 1%, delegate called exactly once (got 1) for sequence 'aibjev1he'
+ 1%, delegate called exactly once (got 1) for sequence 'aaggoo7ac'
+ 1%, delegate called exactly once (got 1) for sequence 'a0m'
+ 1%, delegate called exactly once (got 1) for sequence '8xtnl1qx'
+ 1%, delegate called exactly once (got 1) for sequence '8cljulbt5n'
+ 1%, delegate called exactly once (got 1) for sequence '8'
+ 1%, delegate called exactly once (got 1) for sequence '7e61d'
+ 1%, delegate called exactly once (got 1) for sequence '7cxobakgh'
+ 1%, delegate called exactly once (got 1) for sequence '7'
+ 1%, delegate called exactly once (got 1) for sequence '6zv1gk'
+ 1%, delegate called exactly once (got 1) for sequence '6y'
+ 1%, delegate called exactly once (got 1) for sequence '6aymcw'
+ 1%, delegate called exactly once (got 1) for sequence '438ah13sc1'
+ 1%, delegate called exactly once (got 1) for sequence '40kn9ar'
+ 1%, delegate called exactly once (got 1) for sequence '3tz8sismw'
+ 1%, delegate called exactly once (got 1) for sequence '3'
+ 1%, delegate called exactly once (got 1) for sequence '2zz5jd'
+ 1%, delegate called exactly once (got 1) for sequence '2uaah7'
+ 1%, delegate called exactly once (got 1) for sequence '1lhal5u'
+ 1%, delegate called exactly once (got 1) for sequence '1b7x'
+ 1%, delegate called exactly once (got 1) for sequence '0vk0'
+ 1%, delegate called exactly once (got 1) for sequence '0t1x'
+ 1%, delegate called exactly once (got 1) for sequence '0h9vpm7'
+*** Passed 100 tests
+:
+37%, buffer should be reset (buffer='', length=0, expected < 2), delegate should not be called (got 0)
+19%, buffer should be reset (buffer='', length=0, expected < 3), delegate should not be called (got 0)
+15%, buffer should be reset (buffer='', length=0, expected < 4), delegate should not be called (got 0)
+11%, buffer should be reset (buffer='', length=0, expected < 5), delegate should not be called (got 0)
+ 7%, buffer should be reset (buffer='', length=0, expected < 7), delegate should not be called (got 0)
+ 5%, buffer should be reset (buffer='', length=0, expected < 6), delegate should not be called (got 0)
+ 2%, buffer should be reset (buffer='', length=0, expected < 9), delegate should not be called (got 0)
+ 2%, buffer should be reset (buffer='', length=0, expected < 8), delegate should not be called (got 0)
+ 1%, buffer should be reset (buffer='p', length=1, expected < 3), delegate should not be called (got 0)
+ 1%, buffer should be reset (buffer='7', length=1, expected < 5), delegate should not be called (got 0)
+*** Passed 100 tests
+:
+12%, Event type rawValue=4 should have its bit set in the event mask
+12%, Event type rawValue=25 should have its bit set in the event mask
+10%, Event type rawValue=3 should have its bit set in the event mask
+ 9%, Event type rawValue=11 should have its bit set in the event mask
+ 9%, Event type rawValue=1 should have its bit set in the event mask
+ 8%, Event type rawValue=6 should have its bit set in the event mask
+ 8%, Event type rawValue=5 should have its bit set in the event mask
+ 8%, Event type rawValue=12 should have its bit set in the event mask
+ 6%, Event type rawValue=7 should have its bit set in the event mask
+ 5%, Event type rawValue=26 should have its bit set in the event mask
+ 5%, Event type rawValue=2 should have its bit set in the event mask
+ 4%, Event type rawValue=22 should have its bit set in the event mask
+ 4%, Event type rawValue=10 should have its bit set in the event mask
+*** Passed 100 tests
+(100%, factory should create 1 windows, not 1, overlay count (1) should equal screen count (1), not 1, state should be .active (got idle))
+*** Passed 100 tests
+:
+56%, overlays should be empty after Touch ID deactivation (count: 0), state should be .idle after Touch ID deactivation (got idle), state should have been .active before deactivation
+44%, overlays should be empty after Deactivation Sequence deactivation (count: 0), state should be .idle after Deactivation Sequence deactivation (got idle), state should have been .active before deactivation
+*** Failed! Proposition: Failed Touch ID attempts never trigger success and authenticator remains listening
+Falsifiable (after 1 test and 5 shrinks):
+2
+*** Passed 0 tests
+.
+*** Passed 100 tests
+:
+12%, final overlay count (3) == after count (3), initial overlay count (1) == before count (1)
+10%, final overlay count (1) == after count (1), initial overlay count (1) == before count (1)
+ 9%, final overlay count (1) == after count (1), initial overlay count (3) == before count (3)
+ 8%, final overlay count (3) == after count (3), initial overlay count (2) == before count (2)
+ 7%, final overlay count (3) == after count (3), initial overlay count (3) == before count (3)
+ 7%, final overlay count (1) == after count (1), initial overlay count (4) == before count (4)
+ 6%, final overlay count (4) == after count (4), initial overlay count (4) == before count (4)
+ 6%, final overlay count (4) == after count (4), initial overlay count (1) == before count (1)
+ 6%, final overlay count (3) == after count (3), initial overlay count (4) == before count (4)
+ 6%, final overlay count (2) == after count (2), initial overlay count (2) == before count (2)
+ 4%, final overlay count (4) == after count (4), initial overlay count (3) == before count (3)
+ 4%, final overlay count (4) == after count (4), initial overlay count (2) == before count (2)
+ 4%, final overlay count (2) == after count (2), initial overlay count (3) == before count (3)
+ 4%, final overlay count (2) == after count (2), initial overlay count (1) == before count (1)
+ 4%, final overlay count (1) == after count (1), initial overlay count (2) == before count (2)
+ 3%, final overlay count (2) == after count (2), initial overlay count (4) == before count (4)
+*** Passed 100 tests
+:
+17%, all overlay frames match their screen frames, factory created (5) == screen count (5), overlay count (5) == screen count (5)
+15%, all overlay frames match their screen frames, factory created (4) == screen count (4), overlay count (4) == screen count (4)
+14%, all overlay frames match their screen frames, factory created (8) == screen count (8), overlay count (8) == screen count (8)
+13%, all overlay frames match their screen frames, factory created (6) == screen count (6), overlay count (6) == screen count (6)
+11%, all overlay frames match their screen frames, factory created (7) == screen count (7), overlay count (7) == screen count (7)
+11%, all overlay frames match their screen frames, factory created (2) == screen count (2), overlay count (2) == screen count (2)
+10%, all overlay frames match their screen frames, factory created (1) == screen count (1), overlay count (1) == screen count (1)
+ 9%, all overlay frames match their screen frames, factory created (3) == screen count (3), overlay count (3) == screen count (3)
+*** Passed 100 tests
+:
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 7 interactions, expected 1, message='You shall not pass!' expected='You shall not pass!'
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 7 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 5 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 46 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 38 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 37 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 37 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 35 interactions, expected 1, message='You shall not pass!' expected='You shall not pass!'
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 30 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 3 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 28 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 27 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 16 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 2%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 12 interactions, expected 1, message='You shall not pass!' expected='You shall not pass!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 9 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 8 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 8 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 6 interactions, expected 1, message='You shall not pass!' expected='You shall not pass!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 50 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 5 interactions, expected 1, message='You shall not pass!' expected='You shall not pass!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 48 interactions, expected 1, message='You shall not pass!' expected='You shall not pass!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 48 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 48 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 47 interactions, expected 1, message='You shall not pass!' expected='You shall not pass!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 47 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 47 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 46 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 45 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 44 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 44 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 44 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 44 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 43 interactions, expected 1, message='You shall not pass!' expected='You shall not pass!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 43 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 43 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 42 interactions, expected 1, message='You shall not pass!' expected='You shall not pass!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 42 interactions, expected 1, message='AcTest Case '-[ScreenPrankLockerTests.TauntDisplayManagerPropertyTests testTauntAppearsOnCorrectScreenWithoutStacking]' passed (0.092 seconds).
+Test Suite 'TauntDisplayManagerPropertyTests' passed at 2026-03-18 15:19:38.412.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.092 (0.092) seconds
+Test Suite 'TauntDisplayManagerTests' started at 2026-03-18 15:19:38.412.
+Test Case '-[ScreenPrankLockerTests.TauntDisplayManagerTests testBounceAnimationUsesTranslationY]' started.
+Test Case '-[ScreenPrankLockerTests.TauntDisplayManagerTests testBounceAnimationUsesTranslationY]' passed (0.002 seconds).
+Test Case '-[ScreenPrankLockerTests.TauntDisplayManagerTests testDismissAllRemovesAllTaunts]' started.
+Test Case '-[ScreenPrankLockerTests.TauntDisplayManagerTests testDismissAllRemovesAllTaunts]' passed (0.002 seconds).
+Test Case '-[ScreenPrankLockerTests.TauntDisplayManagerTests testDismissTauntRemovesViewAndStopsAnimation]' started.
+Test Case '-[ScreenPrankLockerTests.TauntDisplayManagerTests testDismissTauntRemovesViewAndStopsAnimation]' passed (0.002 seconds).
+Test Case '-[ScreenPrankLockerTests.TauntDisplayManagerTests testFingerWagAnimationUsesTranslationX]' started.
+Test Case '-[ScreenPrankLockerTests.TauntDisplayManagerTests testFingerWagAnimationUsesTranslationX]' passed (0.002 seconds).
+Test Case '-[ScreenPrankLockerTests.TauntDisplayManagerTests testShakeAnimationUsesTranslationX]' started.
+Test Case '-[ScreenPrankLockerTests.TauntDisplayManagerTests testShakeAnimationUsesTranslationX]' passed (0.001 seconds).
+Test Case '-[ScreenPrankLockerTests.TauntDisplayManagerTests testShowTauntAddsAnimationToLayer]' started.
+Test Case '-[ScreenPrankLockerTests.TauntDisplayManagerTests testShowTauntAddsAnimationToLayer]' passed (0.002 seconds).
+Test Suite 'TauntDisplayManagerTests' passed at 2026-03-18 15:19:38.423.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.010 (0.011) seconds
+Test Suite 'TouchIDAuthenticatorTests' started at 2026-03-18 15:19:38.423.
+Test Case '-[ScreenPrankLockerTests.TouchIDAuthenticatorTests testBeginListeningCallsEvaluatePolicyWhenAvailable]' started.
+Test Case '-[ScreenPrankLockerTests.TouchIDAuthenticatorTests testBeginListeningCallsEvaluatePolicyWhenAvailable]' passed (0.045 seconds).
+Test Case '-[ScreenPrankLockerTests.TouchIDAuthenticatorTests testBeginListeningNotifiesDelegateWhenUnavailable]' started.
+Test Case '-[ScreenPrankLockerTests.TouchIDAuthenticatorTests testBeginListeningNotifiesDelegateWhenUnavailable]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.TouchIDAuthenticatorTests testIsTouchIDAvailableReturnsProviderResult]' started.
+Test Case '-[ScreenPrankLockerTests.TouchIDAuthenticatorTests testIsTouchIDAvailableReturnsProviderResult]' passed (0.000 seconds).
+Test Case '-[ScreenPrankLockerTests.TouchIDAuthenticatorTests testReInitiatesListeningAfterUserCancel]' started.
+/Users/c.dieck/projects/private/protectme/Tests/ScreenPrankLockerTests/UnitTests/TouchIDAuthenticatorTests.swift:139: error: -[ScreenPrankLockerTests.TouchIDAuthenticatorTests testReInitiatesListeningAfterUserCancel] : XCTAssertGreaterThan failed: ("1") is not greater than ("1") - evaluatePolicy should be re-called after userCancel with delay
+Test Case '-[ScreenPrankLockerTests.TouchIDAuthenticatorTests testReInitiatesListeningAfterUserCancel]' failed (1.504 seconds).
+Test Case '-[ScreenPrankLockerTests.TouchIDAuthenticatorTests testStopListeningSetsIsListeningToFalse]' started.
+Test Case '-[ScreenPrankLockerTests.TouchIDAuthenticatorTests testStopListeningSetsIsListeningToFalse]' passed (0.000 seconds).
+Test Suite 'TouchIDAuthenticatorTests' failed at 2026-03-18 15:19:39.973.
+	 Executed 5 tests, with 1 failure (0 unexpected) in 1.549 (1.550) seconds
+Test Suite 'ScreenPrankLockerPackageTests.xctest' failed at 2026-03-18 15:19:39.973.
+	 Executed 75 tests, with 2 failures (0 unexpected) in 156.675 (156.683) seconds
+Test Suite 'All tests' failed at 2026-03-18 15:19:39.973.
+	 Executed 75 tests, with 2 failures (0 unexpected) in 156.675 (156.684) seconds
+cess denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 41 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 4 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 4 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 4 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 39 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 38 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 37 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 36 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 35 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 35 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 34 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 33 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 33 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 33 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 31 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 31 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 30 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 30 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 3 interactions, expected 1, message='You shall not pass!' expected='You shall not pass!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 3 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 28 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 27 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 27 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 26 interactions, expected 1, message='You shall not pass!' expected='You shall not pass!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 26 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 26 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 25 interactions, expected 1, message='You shall not pass!' expected='You shall not pass!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 24 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 23 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 23 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 23 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 22 interactions, expected 1, message='You shall not pass!' expected='You shall not pass!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 21 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 2 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 2 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 2 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 18 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 16 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 16 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 15 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 15 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 15 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 14 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 14 interactions, expected 1, message='Access denied!' expected='Access denied!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 13 interactions, expected 1, message='Ah ah ah, you didn't say the magic word!' expected='Ah ah ah, you didn't say the magic word!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 12 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 10 interactions, expected 1, message='Nice try!' expected='Nice try!'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 1 interactions, expected 1, message='Nope, not today.' expected='Nope, not today.'
+ 1%, TauntView subviews=1 expected 1, activeTaunts.count=1 after 1 interactions, expected 1, message='Access denied!' expected='Access denied!'
+◇ Test run started.
+↳ Testing Library Version: 1501
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.
