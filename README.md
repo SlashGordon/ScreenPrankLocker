@@ -129,8 +129,8 @@ Settings are stored in `~/.prank-locker/config.json` (created on first run):
     "protectionMode": "flash",
     "alertSoundName": "Basso",
     "fartSoundsDirectory": "~/.prank-locker/sounds/farts/",
-  "telegramBotToken": null,
-  "telegramChatID": null,
+    "telegramBotToken": null,
+    "telegramChatID": null,
     "fartCooldownSeconds": 3.0,
     "emergencyStopShortcut": { "modifiers": ["control", "option", "command"], "keyCode": 12 }
 }
