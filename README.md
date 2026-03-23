@@ -185,9 +185,6 @@ swift test
 
 The test suite includes unit tests and property-based tests (via [SwiftCheck](https://github.com/typelift/SwiftCheck)).
 
-## Signal Handling
-
-Sending `SIGTERM` or `SIGINT` (Ctrl+C) triggers a clean shutdown — overlays are removed and input is restored.
 
 ## License
 
