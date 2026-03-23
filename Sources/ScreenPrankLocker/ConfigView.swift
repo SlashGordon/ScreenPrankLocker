@@ -146,7 +146,7 @@ struct ConfigView: View {
                     .fill(Theme.accentGradient)
                     .frame(width: 56, height: 56)
                     .shadow(color: Theme.accentColor.opacity(0.4), radius: 16, y: 4)
-                if let iconURL = Bundle.module.url(forResource: "icon-small", withExtension: "png"),
+                if let iconURL = ResourceHelper.url(forResource: "icon-small", withExtension: "png"),
                    let nsImage = NSImage(contentsOf: iconURL) {
                     Image(nsImage: nsImage)
                         .resizable()
@@ -522,7 +522,7 @@ private struct AboutView: View {
                     .fill(Theme.accentGradient)
                     .frame(width: 72, height: 72)
                     .shadow(color: Theme.accentColor.opacity(0.4), radius: 16, y: 4)
-                if let iconURL = Bundle.module.url(forResource: "icon-small", withExtension: "png"),
+                if let iconURL = ResourceHelper.url(forResource: "icon-small", withExtension: "png"),
                    let nsImage = NSImage(contentsOf: iconURL) {
                     Image(nsImage: nsImage)
                         .resizable()

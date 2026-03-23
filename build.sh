@@ -73,18 +73,9 @@ cmd_app() {
     # Copy the manually created fat executable
     cp "${UNIVERSAL_DIR}/${APP_NAME}" "${APP_DIR}/Contents/MacOS/"
 
-    # Resources are architecture-independent, so we safely grab them from the arm64 build
-    local ARM_BIN_PATH=$(swift build -c release --arch arm64 --show-bin-path)
-    # Copy any resource bundle produced by SwiftPM (e.g. ScreenPrankLocker_ScreenPrankLocker.bundle)
-    for bundle in "${ARM_BIN_PATH}"/${APP_NAME}_*.bundle; do
-        if [ -d "$bundle" ]; then
-            cp -R "$bundle" "${APP_DIR}/Contents/Resources/"
-        fi
-    done
-
-    # Also copy the source Resources directory as a fallback so assets are always available
+    # Resources are copied directly from source — no SwiftPM resource bundle needed
     if [ -d "${SCRIPT_DIR}/Sources/ScreenPrankLocker/Resources" ]; then
-        cp -R "${SCRIPT_DIR}/Sources/ScreenPrankLocker/Resources" "${APP_DIR}/Contents/Resources/"
+        cp -R "${SCRIPT_DIR}/Sources/ScreenPrankLocker/Resources/" "${APP_DIR}/Contents/Resources/"
     fi
 
     # Copy app icon
@@ -95,13 +86,9 @@ cmd_app() {
     # Create Info.plist
     create_plist "${APP_DIR}/Contents/Info.plist"
 
-    # Ad-hoc code sign the app bundle.
-    # Without a signature macOS applies "App Translocation", running the app
-    # from a random temporary path each launch.  That breaks TCC permissions
-    # (Accessibility, Camera, etc.) because the granted path never matches the
-    # next launch path.
+    # Ad-hoc code sign
     echo "==> Code-signing ${APP_DIR} (ad-hoc)..."
-    codesign --force --deep --sign - "${APP_DIR}"
+    codesign --force --sign - "${APP_DIR}"
 
     echo "==> ${APP_DIR} created"
 }

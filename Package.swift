@@ -15,11 +15,7 @@ let package = Package(
             name: "ScreenPrankLocker",
             path: "Sources/ScreenPrankLocker",
             exclude: [
-                "Resources/icon.png"
-            ],
-            resources: [
-                .copy("Resources/farts"),
-                .copy("Resources/icon-small.png")
+                "Resources"
             ],
             linkerSettings: [
                 .linkedFramework("AVFoundation"),
