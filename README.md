@@ -58,11 +58,21 @@ make pkg        # Creates build/ScreenPrankLocker-1.0.0.pkg
 make dmg        # Creates build/ScreenPrankLocker-1.0.0.dmg
 ```
 
-### Install to /Applications
+### Installation
+/Applications/ScreenPrankLocker.app/Contents/MacOS/ScreenPrankLocker
+Because this tool interacts with system security and the camera, macOS Gatekeeper will initially block it since it is an unsigned binary. You will need to strip the quarantine attribute after downloading it.
+
+1. Go to the Releases page and download the latest ScreenPrankLocker-x.x.x.dmg file.
+
+2. Open the .dmg and drag the app into your /Applications folder.
+
+3. Open your Terminal and run the following command to remove the Apple quarantine flag:
 
 ```bash
-make install
+/usr/bin/xattr -cr /Applications/ScreenPrankLocker.app
 ```
+
+You can now launch the app normally from your Applications folder or Spotlight.
 
 ### Other Make Targets
 

@@ -13,6 +13,11 @@ final class PermissionsManager {
     /// Checks and requests all permissions, then calls the completion on the main thread.
     /// The Bool indicates whether the critical Accessibility permission is granted.
     func requestAllPermissions(completion: @escaping (Bool) -> Void) {
+        // 0. Warn if the app is running from a translocated path (quarantine issue)
+        if Self.isTranslocated() {
+            DispatchQueue.main.async { self.showTranslocationAlert() }
+        }
+
         // 1. Camera — triggers the system prompt if not yet decided
         requestCameraAccess {
             // 2. Touch ID — triggers biometric enrollment check
@@ -101,5 +106,34 @@ final class PermissionsManager {
                 NSWorkspace.shared.open(url)
             }
         }
+    }
+
+    // MARK: - App Translocation Detection
+
+    /// Detects whether the app is running from a translocated (randomized) path.
+    /// macOS translocates quarantined unsigned apps, which breaks TCC permissions.
+    static func isTranslocated() -> Bool {
+        let bundlePath = Bundle.main.bundlePath
+        // Translocated apps run from /private/var/folders/…/AppTranslocation/…
+        return bundlePath.contains("/AppTranslocation/")
+    }
+
+    private func showTranslocationAlert() {
+        let alert = NSAlert()
+        alert.messageText = "App Is Running From a Temporary Location"
+        alert.informativeText = """
+            macOS is running Screen Prank Locker from a temporary location \
+            (App Translocation). This prevents permissions like Accessibility \
+            from being saved correctly.
+
+            To fix this, please:
+            1. Quit the app.
+            2. Open Terminal and run:
+               /usr/bin/xattr -dr com.apple.quarantine /Applications/ScreenPrankLocker.app
+            3. Relaunch the app.
+            """
+        alert.alertStyle = .critical
+        alert.addButton(withTitle: "OK")
+        alert.runModal()
     }
 }

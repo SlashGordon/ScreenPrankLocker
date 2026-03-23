@@ -97,6 +97,14 @@ cmd_app() {
     # Create Info.plist
     create_plist "${APP_DIR}/Contents/Info.plist"
 
+    # Ad-hoc code sign the app bundle.
+    # Without a signature macOS applies "App Translocation", running the app
+    # from a random temporary path each launch.  That breaks TCC permissions
+    # (Accessibility, Camera, etc.) because the granted path never matches the
+    # next launch path.
+    echo "==> Code-signing ${APP_DIR} (ad-hoc)..."
+    codesign --force --deep --sign - "${APP_DIR}"
+
     echo "==> ${APP_DIR} created"
 }
 
@@ -135,6 +143,8 @@ cmd_install() {
     echo "==> Installing to /Applications"
     rm -rf "/Applications/${APP_NAME}.app"
     cp -R "${APP_DIR}" "/Applications/${APP_NAME}.app"
+    # Remove the quarantine attribute so macOS does not translocate the app.
+    /usr/bin/xattr -dr com.apple.quarantine "/Applications/${APP_NAME}.app" 2>/dev/null || true
     echo "==> Installed to /Applications/${APP_NAME}.app"
 }
 
