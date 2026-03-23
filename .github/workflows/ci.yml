@@ -48,8 +48,8 @@ jobs:
       - name: Show Swift version
         run: swift --version
 
-      - name: Build release
-        run: swift build -c release
+      - name: Clean build folder
+        run: make clean # Guarantees SPM doesn't use old cached files
 
       - name: Build .app bundle
         run: make app
@@ -59,16 +59,13 @@ jobs:
           echo "Checking architecture of the compiled binary..."
           BINARY_PATH="build/ScreenPrankLocker.app/Contents/MacOS/ScreenPrankLocker"
           
-          # Print the architecture info to the CI logs for debugging
           lipo -info "$BINARY_PATH"
           
-          # Strictly check for Intel (x86_64)
           if ! lipo -info "$BINARY_PATH" | grep -q "x86_64"; then
             echo "Error: Missing x86_64 (Intel) architecture!"
             exit 1
           fi
           
-          # Strictly check for Apple Silicon (arm64)
           if ! lipo -info "$BINARY_PATH" | grep -q "arm64"; then
             echo "Error: Missing arm64 (Apple Silicon) architecture!"
             exit 1
