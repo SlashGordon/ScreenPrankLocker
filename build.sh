@@ -79,8 +79,6 @@ cmd_app() {
     for bundle in "${ARM_BIN_PATH}"/${APP_NAME}_*.bundle; do
         if [ -d "$bundle" ]; then
             cp -R "$bundle" "${APP_DIR}/Contents/Resources/"
-            # Also place a copy at the app root for resource accessors that look there
-            cp -R "$bundle" "${APP_DIR}/"
         fi
     done
 
