@@ -34,7 +34,7 @@ final class ConfigUIPropertyTests: XCTestCase {
         return PrankLockerConfig(
             activationShortcut: KeyCombo(modifiers: [.maskCommand], keyCode: 37),
             deactivationSequence: deactivationSequence,
-            imageDirectory: "~/.prank-locker/images/",
+
             imageIntervalSeconds: 3.0,
             maxSimultaneousImages: 15,
             failsafeTimeoutMinutes: failsafeTimeoutMinutes,

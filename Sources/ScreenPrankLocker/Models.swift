@@ -126,7 +126,6 @@ enum ProtectionMode: String, Codable {
 struct PrankLockerConfig: Codable {
     var activationShortcut: KeyCombo
     var deactivationSequence: String
-    var imageDirectory: String
     var imageIntervalSeconds: TimeInterval
     var maxSimultaneousImages: Int
     var failsafeTimeoutMinutes: Int
@@ -147,7 +146,6 @@ struct PrankLockerConfig: Codable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         activationShortcut = try container.decode(KeyCombo.self, forKey: .activationShortcut)
         deactivationSequence = try container.decode(String.self, forKey: .deactivationSequence)
-        imageDirectory = try container.decode(String.self, forKey: .imageDirectory)
         imageIntervalSeconds = try container.decode(TimeInterval.self, forKey: .imageIntervalSeconds)
         maxSimultaneousImages = try container.decode(Int.self, forKey: .maxSimultaneousImages)
         failsafeTimeoutMinutes = try container.decode(Int.self, forKey: .failsafeTimeoutMinutes)
@@ -168,7 +166,6 @@ struct PrankLockerConfig: Codable {
 
     init(activationShortcut: KeyCombo,
          deactivationSequence: String,
-         imageDirectory: String,
          imageIntervalSeconds: TimeInterval,
          maxSimultaneousImages: Int,
          failsafeTimeoutMinutes: Int,
@@ -186,7 +183,6 @@ struct PrankLockerConfig: Codable {
          telegramChatID: String? = nil) {
         self.activationShortcut = activationShortcut
         self.deactivationSequence = deactivationSequence
-        self.imageDirectory = imageDirectory
         self.imageIntervalSeconds = imageIntervalSeconds
         self.maxSimultaneousImages = maxSimultaneousImages
         self.failsafeTimeoutMinutes = failsafeTimeoutMinutes
@@ -210,7 +206,6 @@ struct PrankLockerConfig: Codable {
             keyCode: 37  // 'L' key
         ),
         deactivationSequence: "unlock",
-        imageDirectory: "~/.prank-locker/images/",
         imageIntervalSeconds: 3.0,
         maxSimultaneousImages: 15,
         failsafeTimeoutMinutes: 30,

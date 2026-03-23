@@ -27,7 +27,6 @@ final class ConfigurationManagerTests: XCTestCase {
 
         let config = manager.config
         XCTAssertEqual(config.deactivationSequence, "unlock")
-        XCTAssertEqual(config.imageDirectory, "~/.prank-locker/images/")
         XCTAssertEqual(config.imageIntervalSeconds, 3.0)
         XCTAssertEqual(config.maxSimultaneousImages, 15)
         XCTAssertEqual(config.failsafeTimeoutMinutes, 30)
@@ -50,7 +49,6 @@ final class ConfigurationManagerTests: XCTestCase {
                 "keyCode": 12
             },
             "deactivationSequence": "opensesame",
-            "imageDirectory": "/tmp/my-images/",
             "imageIntervalSeconds": 5.0,
             "maxSimultaneousImages": 10,
             "failsafeTimeoutMinutes": 60
@@ -64,7 +62,7 @@ final class ConfigurationManagerTests: XCTestCase {
 
         let config = manager.config
         XCTAssertEqual(config.deactivationSequence, "opensesame")
-        XCTAssertEqual(config.imageDirectory, "/tmp/my-images/")
+
         XCTAssertEqual(config.imageIntervalSeconds, 5.0)
         XCTAssertEqual(config.maxSimultaneousImages, 10)
         XCTAssertEqual(config.failsafeTimeoutMinutes, 60)

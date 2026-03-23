@@ -5,6 +5,33 @@
 import SwiftUI
 import AppKit
 
+// A reusable component that encapsulates styling and hover logic
+struct HoverLink: View {
+    let title: String
+    let urlString: String
+
+    var body: some View {
+        // Safely unwrap the URL
+        if let url = URL(string: urlString) {
+            Link(destination: url) {
+                Text(title)
+                    .font(.system(size: 11, weight: .medium, design: .rounded))
+                    .foregroundColor(.blue)
+                    .underline()
+            }
+            .onHover { isHovered in
+                if isHovered {
+                    // Push the hand cursor onto the system cursor stack
+                    NSCursor.pointingHand.push()
+                } else {
+                    // Pop it off when the mouse leaves
+                    NSCursor.pop()
+                }
+            }
+        }
+    }
+}
+
 // MARK: - Theme
 
 private enum Theme {
@@ -531,24 +558,21 @@ private struct AboutView: View {
 
             VStack(spacing: 6) {
                 HStack(spacing: 12) {
-                    Link(destination: URL(string: "https://github.com/SlashGordon")!) {
-                        Text("SlashGordon")
-                            .font(.system(size: 11, weight: .medium, design: .rounded))
-                            .foregroundColor(Theme.subtleText)
-                    }
+                    HoverLink(
+                        title: "SlashGordon", 
+                        urlString: "https://github.com/SlashGordon"
+                    )
 
-                    Link(destination: URL(string: "https://www.slashgordon.link/")!) {
-                        Text("slashgordon.link")
-                            .font(.system(size: 11, weight: .medium, design: .rounded))
-                            .foregroundColor(Theme.subtleText)
-                    }
+                    HoverLink(
+                        title: "slashgordon.link", 
+                        urlString: "https://www.slashgordon.link/"
+                    )
                 }
 
-                Link(destination: URL(string: "mailto:slash.gordon.dev@gmail.com")!) {
-                    Text("slash.gordon.dev@gmail.com")
-                        .font(.system(size: 11, weight: .medium, design: .rounded))
-                        .foregroundColor(Theme.subtleText)
-                }
+                HoverLink(
+                    title: "slash.gordon.dev@gmail.com", 
+                    urlString: "mailto:slash.gordon.dev@gmail.com"
+                )
             }
 
             Button("Close") {

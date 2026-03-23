@@ -122,7 +122,6 @@ Settings are stored in `~/.prank-locker/config.json` (created on first run):
 {
     "activationShortcut": { "modifiers": ["control", "option", "command"], "keyCode": 37 },
     "deactivationSequence": "unlock",
-    "imageDirectory": "~/.prank-locker/images/",
     "imageIntervalSeconds": 3.0,
     "maxSimultaneousImages": 15,
     "failsafeTimeoutMinutes": 30,
