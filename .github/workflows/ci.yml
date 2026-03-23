@@ -79,17 +79,28 @@ jobs:
       - name: Build DMG
         run: make dmg
 
+      - name: Build PKG
+        run: make pkg
+
       - name: Upload DMG as artifact
         uses: actions/upload-artifact@v4
         with:
           name: screenpranklocker-dmg
           path: build/*.dmg
 
+      - name: Upload PKG as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenpranklocker-pkg
+          path: build/*.pkg
+
       - name: Create GitHub Release and Upload Asset
         uses: softprops/action-gh-release@v2
         with:
           # This action handles wildcards directly, making things much cleaner
-          files: build/*.dmg
+          files: |
+            build/*.dmg
+            build/*.pkg
           name: Release ${{ github.ref_name }}
           body: "Automated release built by CI"
         env:
