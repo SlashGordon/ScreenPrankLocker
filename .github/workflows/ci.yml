@@ -49,7 +49,8 @@ jobs:
         run: swift --version
 
       - name: Clean build folder
-        run: make clean # Guarantees SPM doesn't use old cached files
+        # Guarantees SPM doesn't use old cached files
+        run: make clean 
 
       - name: Build .app bundle
         run: make app
@@ -82,27 +83,12 @@ jobs:
           name: screenpranklocker-dmg
           path: build/*.dmg
 
-      - name: Find DMG
-        id: find_dmg
-        run: |
-          set -e
-          dmg=$(ls build/*.dmg | head -n1)
-          echo "dmg=$dmg" >> $GITHUB_OUTPUT
-
-      - name: Create GitHub Release
-        id: create_release
-        uses: actions/create-release@v1
+      - name: Create GitHub Release and Upload Asset
+        uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref_name }}
-          release_name: Release ${{ github.ref_name }}
+          # This action handles wildcards directly, making things much cleaner
+          files: build/*.dmg
+          name: Release ${{ github.ref_name }}
           body: "Automated release built by CI"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload DMG to Release
-        uses: actions/upload-release-asset@v1
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.find_dmg.outputs.dmg }}
-          asset_name: ${{ steps.find_dmg.outputs.dmg }}
-          asset_content_type: application/x-apple-diskimage
