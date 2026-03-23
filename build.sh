@@ -5,7 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 APP_NAME="ScreenPrankLocker"
 BUNDLE_ID="com.pranklocker.screenpranklocker"
 VERSION="1.0.0"
-BUILD_DIR=".build/release"
+UNIVERSAL_DIR=".build/universal"
 APP_DIR="build/${APP_NAME}.app"
 PKG_DIR="build"
 
@@ -45,8 +45,22 @@ PLIST
 }
 
 cmd_build() {
-    echo "==> Building release binary"
-    swift build -c release
+    echo "==> Building for arm64 (Apple Silicon)..."
+    swift build -c release --arch arm64
+
+    echo "==> Building for x86_64 (Intel)..."
+    swift build -c release --arch x86_64
+
+    echo "==> Stitching together Universal Binary..."
+    local ARM_BIN_PATH=$(swift build -c release --arch arm64 --show-bin-path)
+    local X86_BIN_PATH=$(swift build -c release --arch x86_64 --show-bin-path)
+
+    mkdir -p "${UNIVERSAL_DIR}"
+    
+    # We manually use lipo to guarantee the fat binary is created exactly where we want it
+    lipo -create -output "${UNIVERSAL_DIR}/${APP_NAME}" "${ARM_BIN_PATH}/${APP_NAME}" "${X86_BIN_PATH}/${APP_NAME}"
+    
+    echo "==> Universal binary created at ${UNIVERSAL_DIR}/${APP_NAME}"
 }
 
 cmd_app() {
@@ -56,12 +70,13 @@ cmd_app() {
     mkdir -p "${APP_DIR}/Contents/MacOS"
     mkdir -p "${APP_DIR}/Contents/Resources"
 
-    # Copy executable
-    cp "${BUILD_DIR}/${APP_NAME}" "${APP_DIR}/Contents/MacOS/"
+    # Copy the manually created fat executable
+    cp "${UNIVERSAL_DIR}/${APP_NAME}" "${APP_DIR}/Contents/MacOS/"
 
-    # Copy resource bundle (fart sounds etc.)
-    if [ -d "${BUILD_DIR}/${APP_NAME}_${APP_NAME}.bundle" ]; then
-        cp -R "${BUILD_DIR}/${APP_NAME}_${APP_NAME}.bundle" "${APP_DIR}/Contents/Resources/"
+    # Resources are architecture-independent, so we safely grab them from the arm64 build
+    local ARM_BIN_PATH=$(swift build -c release --arch arm64 --show-bin-path)
+    if [ -d "${ARM_BIN_PATH}/${APP_NAME}_${APP_NAME}.bundle" ]; then
+        cp -R "${ARM_BIN_PATH}/${APP_NAME}_${APP_NAME}.bundle" "${APP_DIR}/Contents/Resources/"
     fi
 
     # Copy app icon
@@ -119,19 +134,20 @@ cmd_test() {
 
 cmd_run() {
     cmd_build
-    "${BUILD_DIR}/${APP_NAME}"
+    "${UNIVERSAL_DIR}/${APP_NAME}"
 }
 
 cmd_clean() {
     swift package clean
     rm -rf build/
+    rm -rf "${UNIVERSAL_DIR}"
 }
 
 cmd_help() {
     echo "Usage: ./build.sh <command>"
     echo ""
     echo "Commands:"
-    echo "  build    Build release binary"
+    echo "  build    Build universal release binary"
     echo "  app      Create .app bundle"
     echo "  pkg      Create .pkg installer"
     echo "  dmg      Create .dmg disk image"
