@@ -15,7 +15,7 @@ A macOS prank app that locks the screen with transparent overlays, blocks all ke
 ## Features
 
 - **Full-screen overlay** covering all connected displays
-- **5 protection modes** — silent, flash, flash & sound, fart sounds, or webcam photo capture
+- **6 protection modes** — silent, flash, flash & sound, fart sounds, custom MP3s, or webcam photo capture
 - **Webcam prank** — photographs the intruder and displays the photo on-screen with a funny caption
 - **Touch ID unlock** — authenticate with biometrics to deactivate
 - **Multi-display support** — dynamically adapts when monitors are connected/disconnected
@@ -122,6 +122,7 @@ Controls how the lock screen reacts when someone tries to interact:
 | **Flash** | Screen flashes white (default) |
 | **Flash & Sound** | Flash + configurable system alert sound |
 | **Fart Prank** | Plays random fart sounds with cooldown |
+| **Custom MP3s** | Plays random `.mp3` files from a configured directory |
 | **Webcam Prank** | Captures a photo of the intruder with the webcam, displays it on-screen with a funny caption |
 
 ## Configuration
@@ -138,10 +139,11 @@ Settings are stored in `~/.prank-locker/config.json` (created on first run):
     "protectionMode": "flash",
     "alertSoundName": "Basso",
     "fartSoundsDirectory": "~/.prank-locker/sounds/farts/",
-    "telegramBotToken": null,
-    "telegramChatID": null,
+    "customSoundsDirectory": "~/.prank-locker/sounds/custom/",
     "fartCooldownSeconds": 3.0,
-    "emergencyStopShortcut": { "modifiers": ["control", "option", "command"], "keyCode": 12 }
+  "emergencyStopShortcut": { "modifiers": ["control", "option", "command"], "keyCode": 12 },
+  "telegramBotToken": null,
+  "telegramChatID": null
 }
 ```
 
@@ -153,11 +155,31 @@ Steps:
 
 1. Create a bot with @BotFather on Telegram and copy the bot token.
 2. Obtain the target chat ID (message the bot and check `getUpdates` or use a helper bot like @userinfobot).
-3. Add the values to your config, for example:
+3. Add the values to your config. Minimal keys:
 
 ```json
 "telegramBotToken": "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11",
 "telegramChatID": "987654321"
+```
+
+Example webcam-focused configuration:
+
+```json
+{
+  "activationShortcut": { "modifiers": ["control", "option", "command"], "keyCode": 37 },
+  "deactivationSequence": "unlock",
+  "imageIntervalSeconds": 3.0,
+  "maxSimultaneousImages": 15,
+  "failsafeTimeoutMinutes": 30,
+  "protectionMode": "webcamPrank",
+  "alertSoundName": "Basso",
+  "fartSoundsDirectory": "~/.prank-locker/sounds/farts/",
+  "customSoundsDirectory": "~/.prank-locker/sounds/custom/",
+  "fartCooldownSeconds": 3.0,
+  "emergencyStopShortcut": { "modifiers": ["control", "option", "command"], "keyCode": 12 },
+  "telegramBotToken": "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11",
+  "telegramChatID": "987654321"
+}
 ```
 
 Keep your bot token private; anyone with it can send messages as your bot.
@@ -169,6 +191,10 @@ Drop PNG or JPEG files into `~/.prank-locker/images/`. Falls back to built-in de
 ### Custom Fart Sounds
 
 Place `.mp3` files in `~/.prank-locker/sounds/farts/` or change the directory in config. The app ships with 8 built-in fart sounds.
+
+### Custom MP3 Mode
+
+Set Protection Mode to `Custom MP3s`, then point the app at any directory containing `.mp3` files. A random file from that directory will be played on each interaction attempt.
 
 ### Alert Sounds (Flash & Sound mode)
 
@@ -185,6 +211,17 @@ On first launch the app requests all required permissions upfront:
 | **Touch ID** | Biometric unlock | Optional — falls back to keyboard sequence |
 
 If Accessibility is not granted, the app will guide you to **System Settings → Privacy & Security → Accessibility** to enable it.
+
+### Resetting Permissions
+
+If you need macOS to prompt again for camera or accessibility access, reset the app's TCC entries:
+
+```bash
+tccutil reset Camera com.pranklocker.screenpranklocker
+tccutil reset Accessibility com.pranklocker.screenpranklocker
+```
+
+After resetting, relaunch the app and macOS should show the permission prompts again.
 
 ## Running Tests
 
