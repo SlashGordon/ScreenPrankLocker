@@ -75,8 +75,18 @@ cmd_app() {
 
     # Resources are architecture-independent, so we safely grab them from the arm64 build
     local ARM_BIN_PATH=$(swift build -c release --arch arm64 --show-bin-path)
-    if [ -d "${ARM_BIN_PATH}/${APP_NAME}_${APP_NAME}.bundle" ]; then
-        cp -R "${ARM_BIN_PATH}/${APP_NAME}_${APP_NAME}.bundle" "${APP_DIR}/Contents/Resources/"
+    # Copy any resource bundle produced by SwiftPM (e.g. ScreenPrankLocker_ScreenPrankLocker.bundle)
+    for bundle in "${ARM_BIN_PATH}"/${APP_NAME}_*.bundle; do
+        if [ -d "$bundle" ]; then
+            cp -R "$bundle" "${APP_DIR}/Contents/Resources/"
+            # Also place a copy at the app root for resource accessors that look there
+            cp -R "$bundle" "${APP_DIR}/"
+        fi
+    done
+
+    # Also copy the source Resources directory as a fallback so assets are always available
+    if [ -d "${SCRIPT_DIR}/Sources/ScreenPrankLocker/Resources" ]; then
+        cp -R "${SCRIPT_DIR}/Sources/ScreenPrankLocker/Resources" "${APP_DIR}/Contents/Resources/"
     fi
 
     # Copy app icon
